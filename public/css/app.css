@@ -1,0 +1,85 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-smooth: antialiased;
+  color: #232323;
+}
+
+nav li:last-child a {
+  background: #FE5F1E;
+}
+
+nav li:last-child a:hover {
+  background: #B23301;
+}
+
+nav li a {
+  transition: all 0.3s ease-in-out;
+}
+
+nav li a:hover {
+  color: #FE5F1E;
+}
+
+section.hero {
+  background: #F8F8F8;
+}
+
+.add-to-cart {
+  border: 2px solid #FE5F1E;
+  color: #FE5F1E;
+  transition: all 0.3s ease-in-out;
+}
+
+.add-to-cart:hover {
+  background: #FE5F1E;
+  color: #FFF;
+  border-color: #FFF;
+}
+
+.size {
+  background: #F8F8F8;
+}
+
+.btn-primary {
+  background: #FE5F1E;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: #B23301;
+}
+
+section.cart {
+  background: #F8F8F8;
+}
+
+section.cart .amount {
+  color: #FE5F1E;
+}
+
+section.login {
+  background: #F8F8F8;
+  min-height: calc(100vh - 86px);
+}
+
+section.login a {
+  color: #FE5F1E;
+}
+
+section.login a:hover {
+  color: #B23301;
+}
+
+section.register {
+  background: #F8F8F8;
+  min-height: calc(100vh - 86px);
+}
+
+section.register a {
+  color: #FE5F1E;
+}
+
+section.register a:hover {
+  color: #B23301;
+}
+
